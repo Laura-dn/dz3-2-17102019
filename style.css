@@ -1,0 +1,29 @@
+div {
+    width: 30%;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+ul {padding-inline-start: 0;}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li:nth-child(2n+1) {background-color: #a5ccda;}
+li:nth-child(2n) {background-color: #add8e6;}
+.done {text-decoration: line-through;}
+#checkedGray {background-color:  #e2e2e2;}
+
+.krest {
+    color: brown;
+    margin-left: 25px;
+}
+
+img {
+    margin-right: 20px;
+    padding-left: 30px;
+}
+
+
